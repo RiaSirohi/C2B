@@ -2,13 +2,14 @@ body {
     justify-content: center;
     align-items: center;
     text-align: left;
-    padding-top: 150px;
+    height: 100%;
     
 }
 
 .background {
-    background-image: url("images/wallpaper.png");
-    filter: blur(5px);
+    background-image: url("images/original.jpg");
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
