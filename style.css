@@ -7,19 +7,26 @@ body {
 }
 
 .background {
-    background: url(images/wallpaper.png);
-    filter: blur(8px);
+    background-image: url("images/wallpaper.png");
+    filter: blur(5px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 form {
-    border: 1px solid;
-    margin-left: 500px;
-    margin-right: 500px;
-    padding-left: 80px;
-    padding-right: 0px;
-    padding-top: 50px;
-    padding-bottom: 80px;
-    background: rgb(219, 242, 255);
+    border: 3px solid #22577a;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(219, 242, 255);
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+   
 }
 
 .btn:hover {
