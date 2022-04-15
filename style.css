@@ -17,10 +17,9 @@ body {
 }
 
 form {
-    border: 3px solid #22577a;
     text-align: center;
     padding: 20px;
-    background-color: rgb(219, 242, 255);
+    background-color: rgb(255, 255, 255);
     font-weight: bold;
     position: absolute;
     top: 50%;
