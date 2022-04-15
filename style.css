@@ -1,0 +1,27 @@
+body {
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding-top: 150px;
+    
+}
+
+.background {
+    background: url(images/wallpaper.png);
+    filter: blur(8px);
+}
+
+form {
+    border: 1px solid;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-left: 80px;
+    padding-right: 0px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    background: rgb(219, 242, 255);
+}
+
+.btn:hover {
+    background-color: azure;
+}
