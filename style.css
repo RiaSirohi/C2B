@@ -18,7 +18,7 @@ body {
 
 form {
     text-align: center;
-    padding: 50px;
+    padding: 30px;
     background-color: rgba(0, 0, 0, 0.3);
     font-weight: bold;
     position: absolute;
@@ -57,8 +57,12 @@ form {
     
 }
 
-
 .btn:hover {
     background-color: azure;
     cursor: pointer;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid red
 }
